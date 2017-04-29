@@ -37,11 +37,14 @@
                     </div>
                 </div>
             </div>
-            
-            TODO フォームからボタン押下時に処理をする
-            TODO 別ページに遷移
         </div>
         <?php include(__DIR__."/footer.php") ?>
         <?php include(__DIR__."/js.php") ?>
+        <script type="text/javascript">
+            $(window).load(function () {
+                // ナビゲーションバーのactiveを変更
+                $("#top").addClass("active");
+            });
+        </script>
     </body>
 </html>

@@ -19,7 +19,7 @@
             <div class="well">
                 <h4>ファセットカスタマイズ画面へようこそ!</h4>
                 <p>ユーザによってカスタマイズが可能なファセットの一覧を以下に表示しています。</p>
-                <a class="btn btn-primary">トップ画面に戻る</a>
+                <a class="btn btn-primary" href="../index.php">トップ画面に戻る</a>
             </div>
             <table class="table table-bordered table-striped">
                 <thead>
